@@ -1,0 +1,9 @@
+const roadmap = [
+  { id: "web-basics", title: "Web foundations", category: "Foundations", duration: "1 week", description: "Understand how the web works and build semantic, accessible pages.", tasks: ["HTML semantics and forms", "CSS layout: Flexbox and Grid", "Responsive design and accessibility", "Git and GitHub basics"] },
+  { id: "javascript", title: "JavaScript essentials", category: "Frontend", duration: "2 weeks", description: "Build confidence with modern JavaScript before moving to React.", tasks: ["Variables, functions and scope", "Arrays, objects and array methods", "Promises, async/await and fetch", "ES modules and error handling"] },
+  { id: "react", title: "React development", category: "Frontend", duration: "2 weeks", description: "Create reusable interfaces and manage application state.", tasks: ["Components, props and state", "Hooks and effects", "React Router", "Forms and API integration"] },
+  { id: "backend", title: "Node and Express APIs", category: "Backend", duration: "2 weeks", description: "Design REST endpoints, validate input and handle errors.", tasks: ["Node.js and npm", "Express routes and middleware", "REST API design", "Authentication and authorization"] },
+  { id: "database", title: "MongoDB and data modeling", category: "Backend", duration: "1 week", description: "Store application data and model relationships.", tasks: ["CRUD operations", "Mongoose schemas", "Indexes and validation", "Environment variables"] },
+  { id: "portfolio", title: "Portfolio project and deployment", category: "Career", duration: "2 weeks", description: "Ship a polished project and make it easy for recruiters to review.", tasks: ["Finish a full-stack project", "Write README and screenshots", "Deploy frontend and API", "Update resume and portfolio"] }
+];
+export default roadmap;
